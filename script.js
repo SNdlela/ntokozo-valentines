@@ -92,13 +92,13 @@ const getRandomNumber = (num) => {return Math.floor(Math.random() * (num + 1));}
     valentineQuestion.innerHTML = `
       <img src="./images/image7.gif" alt="Celebration duckie" style="display: block; margin: 0 auto; width: 200px; height: auto;"/>
       Congratulations!!<br>
-      <span style="font-size: 20px; color: #bd1e59;">You have scored a baddie for Valentine’s Day 😌❤️</span>
+      <span style="font-size: 20px; color: #bd1e59;">You have scored a man of your dreams for Valentine’s Day 😌❤️</span>
     `;
     valentineQuestion.style.textAlign = "center"; 
   
     //make image go boing
     const bounceImage = document.createElement("img");
-    bounceImage.src = "./images/baddie.jpg";
+    bounceImage.src = "./images/baddie.png";
     bounceImage.alt = "Baddie";
     bounceImage.style.position = "absolute";
     bounceImage.style.width = "300px";
@@ -156,4 +156,5 @@ const getRandomNumber = (num) => {return Math.floor(Math.random() * (num + 1));}
   }
 
   
+
 
